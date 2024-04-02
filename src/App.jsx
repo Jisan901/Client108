@@ -1,23 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import Layout from "./layout/Layout.jsx"
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "./App.css"
+import "aos/dist/aos.css";
+  
 function App() {
-  const [count, setCount] = useState(0)
-
+    useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
-      <div className="card w-96 bg-neutral text-neutral-content">
-  <div className="card-body items-center text-center">
-    <h2 className="card-title">Cookies!</h2>
-    <p>We are using cookies for no reason.</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Accept</button>
-      <button className="btn btn-ghost">Deny</button>
-    </div>
-  </div>
-</div>
+        <Layout/>
     </>
   )
 }
