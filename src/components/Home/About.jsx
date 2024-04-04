@@ -8,9 +8,9 @@ function Hero() {
                 <img data-aos="zoom-in-up" className="w-full" src={img} alt='main'/>
             </div>
             <div className="max-w-[550px]">
-              <h1 className="text-4xl font-bold">About us</h1>
-              <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-              <a href="tel:+8801714433623" className="btn btn-sm btn btn-neutral rounded-md text-white md:btn-md gap-2 normal-case lg:gap-3">
+              <h1 className="text-4xl font-bold">معلومات عنا</h1>
+              <p className="py-6">مؤسسة أحمد علي هي أفضل مؤسسة موزعة في تبوك.  يمكنك الاتصال بنا مباشرة لبيع المنتجات المستعملة، وسيتم التعامل مع النقل من قبل المنظمة.  يمكنك معرفة المزيد عن طريق الاتصال بنا.</p>
+              <a href="tel:+966565477623" className="btn btn-sm btn btn-neutral rounded-md text-white md:btn-md gap-2 normal-case lg:gap-3">
               <div className="flex flex-col items-end">
               <span>call us</span>
               </div> 

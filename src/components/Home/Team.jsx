@@ -3,7 +3,7 @@ import user2 from "../../assets/2.jpg"
 import user3 from "../../assets/3.jpg"
 import user4 from "../../assets/4.jpg"
 import user5 from "../../assets/5.jpg"
-import user6 from "../../assets/5.jpg"
+import user6 from "../../assets/react.svg"
 
 
 function Team() {
@@ -11,39 +11,39 @@ function Team() {
     <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">فريقنا</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">نحن نقدم خدماتنا المذهلة مع أفضل فريق. قد تكون على دراية بهم..</p>
     </div>
     <div className="flex flex-wrap -m-2">
       <SingleCard data={{
-          name:"Mr.Jamal",
+          name:"Ahmed Ali",
           title:"CEO",
-          image:user1
+          image:user6
       }}/>
       <SingleCard data={{
-          name:"Mr.Kamal",
+          name:"Tarikul islam",
           title:"employee",
           image:user2
       }}/>
       <SingleCard data={{
-          name:"Mr.Ahammed",
+          name:"Manowar Hossain",
           title:"employee",
           image:user3
       }}/>
       <SingleCard data={{
-          name:"Mr.Employee",
+          name:"Mr.Elias",
           title:"employee",
           image:user4
       }}/>
       <SingleCard data={{
-          name:"Mr.Employee2",
+          name:"Mizanur Rahman",
           title:"employee",
           image:user5
       }}/>
       <SingleCard data={{
-          name:"Mr.Employee3",
+          name:"Mr.Hassan",
           title:"employee",
-          image:user6
+          image:user1
       }}/>
     </div>
   </div>
