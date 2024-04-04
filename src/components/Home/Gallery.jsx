@@ -1,13 +1,3 @@
-import p1 from "../../assets/p1.jpg";
-import p2 from "../../assets/p2.jpg";
-import p3 from "../../assets/p3.jpg";
-import p4 from "../../assets/p4.jpg";
-import p5 from "../../assets/p6.jpg";
-import p6 from "../../assets/p7.jpg";
-
-
-
-
 function Gallery() {
     return (
 <section className="text-gray-600 body-font">
@@ -19,24 +9,24 @@ function Gallery() {
     <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src={p1}/>
+          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p1.jpg"/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src={p2}/>
+          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p2.jpg"/>
         </div>
         <div className="md:p-2 p-1 w-full">
-          <img alt="gallery" className="w-full h-full object-cover object-center block" src={p3}/>
+          <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://jisan901.github.io/Assets-All/client108/p3.jpg"/>
         </div>
       </div>
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-full">
-          <img alt="gallery" className="w-full h-full object-cover object-center block" src={p4}/>
+          <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://jisan901.github.io/Assets-All/client108/p4.jpg"/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src={p5}/>
+          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p7.jpg"/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src={p6}/>
+          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p6.jpg"/>
         </div>
       </div>
     </div>

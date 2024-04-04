@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises'
 import express from 'express'
-
+import {Helmet} from "react-helmet";
 // Constants
 const isProduction = true // process.env.NODE_ENV === 'production'
 const port = process.env.PORT || 5173
@@ -45,18 +45,23 @@ app.use('*', async (req, res) => {
       // Always read fresh template in development
       template = await fs.readFile('./index.html', 'utf-8')
       template = await vite.transformIndexHtml(url, template)
-      render = (await vite.ssrLoadModule('/src/entry-server.jsx')).render
+      render = (await vite.ssrLoadModule('./builder.jsx')).render
     } else {
       template = templateHtml
       render = (await import('./dist/server/builder.js')).render
+     // render = (await vite.ssrLoadModule('./builder.jsx')).render
+
     }
 
     const rendered = await render(url, ssrManifest)
-
+    const helmet = Helmet.renderStatic();
+    let head = helmet.title.toString()
+    head += helmet.meta.toString()
+    head+= helmet.link.toString()
     const html = template
-      .replace(`<!--app-head-->`, rendered.head ?? '')
+      .replace(`<!--app-head-->`, head ?? '')
       .replace(`<!--app-html-->`, rendered.html ?? '')
-        console.log(html);
+    fs.writeFile('./build.html',html);
     res.status(200).set({ 'Content-Type': 'text/html' }).send(html)
   } catch (e) {
     vite?.ssrFixStacktrace(e)

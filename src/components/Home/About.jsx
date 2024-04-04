@@ -1,11 +1,10 @@
-import img from '../../assets/sofa.png'
 
 function Hero() {
     return (
         <div id="about" className="hero py-3 px-3 mx-auto">
           <div className={`hero-content flex-col lg:flex-row`}>
             <div className="max-w-sm">
-                <img data-aos="zoom-in-up" className="w-full" src={img} alt='main'/>
+                <img data-aos="zoom-in-up" className="w-full" src="https://jisan901.github.io/Assets-All/client108/131378.jpg" alt='About banner'/>
             </div>
             <div className="max-w-[550px]">
               <h1 className="text-4xl font-bold">معلومات عنا</h1>

@@ -18,32 +18,32 @@ function Team() {
       <SingleCard data={{
           name:"Ahmed Ali",
           title:"CEO",
-          image:user6
+          image:"https://jisan901.github.io/Assets-All/client108/react.svg"
       }}/>
       <SingleCard data={{
           name:"Tarikul islam",
           title:"employee",
-          image:user2
+          image:"https://jisan901.github.io/Assets-All/client108/2.jpg"
       }}/>
       <SingleCard data={{
           name:"Manowar Hossain",
           title:"employee",
-          image:user3
+          image:"https://jisan901.github.io/Assets-All/client108/3.jpg"
       }}/>
       <SingleCard data={{
           name:"Mr.Elias",
           title:"employee",
-          image:user4
+          image:"https://jisan901.github.io/Assets-All/client108/4.jpg"
       }}/>
       <SingleCard data={{
           name:"Mizanur Rahman",
           title:"employee",
-          image:user5
+          image:"https://jisan901.github.io/Assets-All/client108/5.jpg"
       }}/>
       <SingleCard data={{
           name:"Mr.Hassan",
           title:"employee",
-          image:user1
+          image:"https://jisan901.github.io/Assets-All/client108/1.jpg"
       }}/>
     </div>
   </div>

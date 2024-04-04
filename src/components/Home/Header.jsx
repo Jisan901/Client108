@@ -1,7 +1,5 @@
-import furniture from "../../assets/m.png"
-import sink from "../../assets/sink.png"
-import wam from "../../assets/wam.png"
-import wam3 from "../../assets/wam3.png"
+
+
 import Typewriter from 'typewriter-effect';
 
 
@@ -42,16 +40,16 @@ function Carousel() {
     return (
 <div data-aos="zoom-in-left" className="min-w-64 max-w-96 rounded-lg carousel">
   <div className="carousel-item w-full">
-    <img src={wam3} className="" alt="Air conditioner" />
+    <img src="https://jisan901.github.io/Assets-All/client108/wam3.png" className="" alt="Air conditioner" />
   </div> 
   <div className="carousel-item w-full">
-    <img src={wam} className="" alt="washing machine" />
+    <img src="https://jisan901.github.io/Assets-All/client108/wam.png" className="" alt="washing machine" />
   </div> 
   <div className="carousel-item w-full">
-    <img src={furniture} className="" alt="furniture" />
+    <img src="https://jisan901.github.io/Assets-All/client108/m.png" className="" alt="furniture" />
   </div> 
   <div className="carousel-item w-full">
-    <img src={sink} className="" alt="kitchen" />
+    <img src="https://jisan901.github.io/Assets-All/client108/sink.png" className="" alt="kitchen" />
   </div> 
 </div>
     )
