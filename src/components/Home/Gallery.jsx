@@ -9,24 +9,24 @@ function Gallery() {
     <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p1.jpg"/>
+          <img loading="lazy" alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p1.jpg"/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p2.jpg"/>
+          <img loading="lazy" alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p2.jpg"/>
         </div>
         <div className="md:p-2 p-1 w-full">
-          <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://jisan901.github.io/Assets-All/client108/p3.jpg"/>
+          <img loading="lazy" alt="gallery" className="w-full h-full object-cover object-center block" src="https://jisan901.github.io/Assets-All/client108/p3.jpg"/>
         </div>
       </div>
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-full">
-          <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://jisan901.github.io/Assets-All/client108/p4.jpg"/>
+          <img loading="lazy" alt="gallery" className="w-full h-full object-cover object-center block" src="https://jisan901.github.io/Assets-All/client108/p4.jpg"/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p7.jpg"/>
+          <img loading="lazy" alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p7.jpg"/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p6.jpg"/>
+          <img loading="lazy" alt="gallery" className="w-full object-cover h-full object-center block" src="https://jisan901.github.io/Assets-All/client108/p6.jpg"/>
         </div>
       </div>
     </div>
